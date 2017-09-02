@@ -44,5 +44,8 @@
       ]
     }
   },
-  "dependencies": {}
+  "dependencies": {
+    "generator-chrome-extension": "^0.6.1",
+    "global": "^4.3.2"
+  }
 }

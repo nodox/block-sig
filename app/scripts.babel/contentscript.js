@@ -4,7 +4,6 @@
 //   // Handler when the DOM is fully loaded
 //   console.log('\'Allo \'Allo! Content script.....');
 // };
-
 // if (document.readyState === "complete" || (document.readyState !== "loading" && !document.documentElement.doScroll)) {
 //   callback();
 // } else {
