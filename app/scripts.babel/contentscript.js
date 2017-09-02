@@ -15,9 +15,8 @@
 var target = document.querySelector('body');
  
 // create an observer instance
-var observer = new MutationObserver(function(mutations) {
-  mutations.forEach(function(mutation) {
-    console.log(mutation.type);
+var observer = new MutationObserver((mutations) => {
+  mutations.forEach((mutation) => { // line needs to be optimized
     var mailTrackSigs = document.querySelectorAll('[data-mt-signature]');
     for(var j = 0; j < mailTrackSigs.length; j++) {
       mailTrackSigs[j].style.display = 'none';
